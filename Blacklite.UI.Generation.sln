@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22310.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Blacklite.Framework.UI.Generation", "src\Blacklite.Framework.UI.Generation\Blacklite.Framework.UI.Generation.kproj", "{2782C439-0E08-447B-95E1-465B7ED9CEF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{06094E01-E6A7-4ED9-BF6F-394B483E02B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E082D1D3-06C7-4956-B42C-A5EE2F283703}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{116B8F57-7794-48DE-B777-232E10CFACE1}"
+	ProjectSection(SolutionItems) = preProject
+		build.cmd = build.cmd
+		build.sh = build.sh
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{E958D10A-8FF1-4AC0-AAFF-C23839F07D2F}"
+	ProjectSection(SolutionItems) = preProject
+		makefile.shade = makefile.shade
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".config", ".config", "{ACA4947B-4405-45A4-9212-59649AF77B83}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		appveyor.yml = appveyor.yml
+		global.json = global.json
+		NuGet.config = NuGet.config
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Blacklite.Framework.UI.Generation.Mvc", "src\Blacklite.Framework.UI.Generation.Mvc\Blacklite.Framework.UI.Generation.Mvc.kproj", "{16288AB0-4567-47B7-A9D8-420495322DF4}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "UI.Generation.Tests", "tests\UI.Generation.Tests\UI.Generation.Tests.kproj", "{FF6A80AB-286A-4ED4-8877-2F9C135A0FC8}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "UI.Generation.Mvc.Tests", "tests\UI.Generation.Mvc.Tests\UI.Generation.Mvc.Tests.kproj", "{15D39BEE-E8C2-4B7D-8A4B-DFEE46AE18AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2782C439-0E08-447B-95E1-465B7ED9CEF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2782C439-0E08-447B-95E1-465B7ED9CEF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2782C439-0E08-447B-95E1-465B7ED9CEF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2782C439-0E08-447B-95E1-465B7ED9CEF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16288AB0-4567-47B7-A9D8-420495322DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16288AB0-4567-47B7-A9D8-420495322DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16288AB0-4567-47B7-A9D8-420495322DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16288AB0-4567-47B7-A9D8-420495322DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF6A80AB-286A-4ED4-8877-2F9C135A0FC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF6A80AB-286A-4ED4-8877-2F9C135A0FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF6A80AB-286A-4ED4-8877-2F9C135A0FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF6A80AB-286A-4ED4-8877-2F9C135A0FC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15D39BEE-E8C2-4B7D-8A4B-DFEE46AE18AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15D39BEE-E8C2-4B7D-8A4B-DFEE46AE18AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15D39BEE-E8C2-4B7D-8A4B-DFEE46AE18AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15D39BEE-E8C2-4B7D-8A4B-DFEE46AE18AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2782C439-0E08-447B-95E1-465B7ED9CEF5} = {06094E01-E6A7-4ED9-BF6F-394B483E02B0}
+		{16288AB0-4567-47B7-A9D8-420495322DF4} = {06094E01-E6A7-4ED9-BF6F-394B483E02B0}
+		{FF6A80AB-286A-4ED4-8877-2F9C135A0FC8} = {E082D1D3-06C7-4956-B42C-A5EE2F283703}
+		{15D39BEE-E8C2-4B7D-8A4B-DFEE46AE18AB} = {E082D1D3-06C7-4956-B42C-A5EE2F283703}
+	EndGlobalSection
+EndGlobal
