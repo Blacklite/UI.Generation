@@ -36,6 +36,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "UI.Generation.Tests", "test
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "UI.Generation.Mvc.Tests", "tests\UI.Generation.Mvc.Tests\UI.Generation.Mvc.Tests.kproj", "{15D39BEE-E8C2-4B7D-8A4B-DFEE46AE18AB}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Blacklite.Framework.UI.Annotations", "src\Blacklite.Framework.UI.Annotations\Blacklite.Framework.UI.Annotations.kproj", "{5E53C3A6-3DB8-4DA2-87ED-254F94743886}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +60,10 @@ Global
 		{15D39BEE-E8C2-4B7D-8A4B-DFEE46AE18AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15D39BEE-E8C2-4B7D-8A4B-DFEE46AE18AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15D39BEE-E8C2-4B7D-8A4B-DFEE46AE18AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E53C3A6-3DB8-4DA2-87ED-254F94743886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E53C3A6-3DB8-4DA2-87ED-254F94743886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E53C3A6-3DB8-4DA2-87ED-254F94743886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E53C3A6-3DB8-4DA2-87ED-254F94743886}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,5 +73,6 @@ Global
 		{16288AB0-4567-47B7-A9D8-420495322DF4} = {06094E01-E6A7-4ED9-BF6F-394B483E02B0}
 		{FF6A80AB-286A-4ED4-8877-2F9C135A0FC8} = {E082D1D3-06C7-4956-B42C-A5EE2F283703}
 		{15D39BEE-E8C2-4B7D-8A4B-DFEE46AE18AB} = {E082D1D3-06C7-4956-B42C-A5EE2F283703}
+		{5E53C3A6-3DB8-4DA2-87ED-254F94743886} = {06094E01-E6A7-4ED9-BF6F-394B483E02B0}
 	EndGlobalSection
 EndGlobal
